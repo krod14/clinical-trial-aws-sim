@@ -1,0 +1,11 @@
+name: clin-trial-sim-aws
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - numpy
+    - scipy
+    - boto3

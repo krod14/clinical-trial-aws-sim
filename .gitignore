@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# AWS credentials — never commit these
+.aws/
+credentials
+*.pem
+*.key
+access_key*
+secret*
+
+# Data & outputs
+*.csv
+*.json
+*.png
+results/
+outputs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Docker
+.dockerignore
